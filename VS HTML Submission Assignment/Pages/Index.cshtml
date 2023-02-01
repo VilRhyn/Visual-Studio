@@ -1,0 +1,19 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 id="rhyns_page" class="display-4 drkblue-text" onmouseover="newColor()" onmouseout="oldColor()">Rhyns Page</h1>
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/mzxvzH5oCVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+    <p>
+        <button onclick="myMove()">Click Me</button>
+    </p>
+
+    <div id="myContainer">
+        <div id="myAnimation"></div>
+    </div>
+
+</div>
+</div>
